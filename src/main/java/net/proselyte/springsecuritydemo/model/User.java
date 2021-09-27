@@ -1,5 +1,5 @@
 package net.proselyte.springsecuritydemo.model;
-
+//класс модель 
 import lombok.Data;
 
 import javax.persistence.*;

@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+//    getByLogin – который будет возвращать пользователя по логину;
+//getAll – который будет возвращать список всех доступных пользователей. Чтобы Spring создал бин на основании этого класса, 
 @RestController
 @RequestMapping("/api/v1/developers")
 public class DeveloperRestControllerV1 {

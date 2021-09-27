@@ -12,7 +12,7 @@ import java.util.List;
 
 @Data
 public class SecurityUser implements UserDetails {
-
+// получить аутентифицированного в данный момент участника
     private final String username;
     private final String password;
     private final List<SimpleGrantedAuthority> authorities;
